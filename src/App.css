@@ -1,0 +1,35 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.movie-app > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.row{
+	margin-top: 4vh;
+}
+
+.image-container {
+	max-width: 75vh;
+	height: 100%;
+	display: flex;
+	position: relative;
+	transition: transform 0.2s;
+	padding: 15px;
+}
+
+.image-container div{
+	padding: 10px;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
